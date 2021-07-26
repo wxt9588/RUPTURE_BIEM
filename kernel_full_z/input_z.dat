@@ -1,0 +1,17 @@
+6.00         ----- vp(km/s)
+3.464         ----- vs(km/s)   
+2.67         ----- rho(g/cm^3)
+0.003         ----- ds(km)
+0.30         ----- CFL (<0.5)
+80           ----- minimum sample points
+5.0         ----- maximum frequency (Hz)
+1.0          ----- k_coef   
+0            ----- i1
+200            ----- i2
+0            ----- j1
+200           ----- j2
+0            ----- m1
+200           ----- m2
+2000          ----- maxtime
+'../data/kernel/'           -------kerneldir
+'vp6ds0.003rou2.67tmax2000.dat'           -------kernelname
