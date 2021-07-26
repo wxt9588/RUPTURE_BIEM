@@ -1,0 +1,32 @@
+1      -----full(1) or free(2)
+100	 -----len
+100    	 -----wid
+6.000      -----vp
+3.464      -----vs
+0.700       ------vforce
+0.300     -----CFL
+6.3    ----- D0
+1.001    ----- Ti
+0.40      -----  Te 
+41       ----- L_asp(nucleation zone diameter)
+1        ----- s_or_d : s = 1, d = 2
+2000      ----- maxtime
+2000      ----- kernel_maxtime
+50         ----- center1_asp(i)
+50         ----- center2_asp(j)
+0        ------ break time
+15       ------rupcret
+'../data/kernel/vp6ds0.006rou2.67tmax2000.dat'    ----kernel_full
+'../data_dip60/transformed_strike300-75-2500/'    ----transformed dir 
+'../data/Te0.20Dc0.88R41B90ds0.006vf0.7nucway2/'  ----result dir
+2.0    -------a
+3.0    -------b
+9.02    -------D1
+9.02    -------D2
+0.20  -------Te1
+0.20  -------Te2
+100    -------w1
+100    -------w2
+100    -------len1
+100    -------len2
+90      -------L_barrier (barrier diameter)
